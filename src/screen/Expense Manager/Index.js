@@ -211,7 +211,7 @@ export class ExpenseManager extends Component {
             Total:{this.state.total}
           </Text>
 
-          <TouchableOpacity
+          {/* <TouchableOpacity
             onPress={() => this.orderFood()}
             style={{
               width: '90%',
@@ -220,8 +220,8 @@ export class ExpenseManager extends Component {
               borderRadius: 50,
               marginTop: 30,
               marginLeft: 18,
-            }}>
-            <Text
+            }}> */}
+          {/* <Text
               style={{
                 color: 'white',
                 textAlign: 'center',
@@ -253,8 +253,8 @@ export class ExpenseManager extends Component {
                 letterSpacing: 2,
               }}>
               Whatsapp
-            </Text>
-          </TouchableOpacity>
+            </Text> */}
+          {/* </TouchableOpacity> */}
         </ScrollView>
         {/* <FlatList
 data={myExpense}
